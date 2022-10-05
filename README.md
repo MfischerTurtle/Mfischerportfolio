@@ -27,11 +27,7 @@ Usage of colors
 
 ## Mock Up
 
-<<<<<<< HEAD
-
-=======
 ![toppage](https://user-images.githubusercontent.com/109981049/194115308-a357d5a3-beba-4f29-92b7-d2270c4bda6a.PNG)
 
 ![bottomwebpage](https://user-images.githubusercontent.com/109981049/194115420-5bff8471-efa9-4ce6-82d3-ed76559982fc.PNG)
->>>>>>> 0bd8cfdf70128f68f6d177f150ba6626b446163a
 
