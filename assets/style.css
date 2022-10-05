@@ -16,16 +16,14 @@ body {
   flex-direction: column;
   min-height: 100vh;
   justify-content: flex-start;
-  
 }
-
 
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 2%;
-  border: 4px rgb(223, 21, 7);
+  border: 4px groove rgb(0, 255, 213);
 }
 
 html {background-image: radial-gradient(rgb(255, 123, 0), green, blue)
@@ -36,7 +34,6 @@ h1{
   display: flex;
   flex: auto;
   font-size: 2.5rem;
-
   color: #ec0d0d;
 }
 
@@ -46,9 +43,25 @@ h2 {
   left: 50%;
   padding: var(--spacing-unit-small);
   position: absolute;
-  top: -42px;
+  top: -27px;
   text-align: center;
   transform: translate(-50%);
+  font-size: 1rem;
+  margin-bottom: 10px;
+  border-radius: 25px;
+  background-image: url(images/TurtleshellBR.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h3{
+  color: rgb(255, 0, 43);
+  padding: var(--spacing-unit-small);
+  position: relative;
+  top: -108%;
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 10px;
 }
 
 main {
@@ -56,10 +69,14 @@ main {
 }
 
 figure {
-  border: 4px dashed orange;
-  margin: var(--spacing-unit-small);
-  padding: var(--spacing-unit);
+  border: 4px outset rgb(255, 238, 0);
+  margin: 58px;
+  padding: 36px;
   position: relative;
+  background-image: url(images/InkedTurtleshellHBR.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
 }
 
 figure:hover {
@@ -68,27 +85,30 @@ figure:hover {
 
 figcaption {
   color: aqua;
+  text-align: center;
 }
 
-h2 {
-  font-size: 1.5rem;
-  margin-bottom: 10px;
+nav a{
+  color: rgb(193, 235, 10);
+}
+
+a {
+color: rgb(69, 15, 156);
 }
 
 nav ul {
   display: flex;
   justify-content: space-between;
   min-width: 300px;
-}
-
-nav a {
   color: #d80b0b;
   font-size: 15px;
-  }
+}
+
 
 nav a:hover {
-  background-color: rgb(137, 6, 141);
+  background-color: rgb(133, 9, 133);
   color: #57d80c;
+  box-shadow: 0px 0px 48px rgb(188, 238, 5);
 }
 
 main {
@@ -98,49 +118,103 @@ main {
 }
 
 footer {
-  position: bottom;
-  width: 100%;
+  justify-content: space-between;
+  word-wrap: break-word;
+  font-size: 20px;
+  width: 75%;
   bottom: 0;
   padding: 20px;
   text-align: center;
-  background: #13293d;
-  color: #fff;
+  border: 4px groove rgb(0, 255, 213);
+  color: rgb(16, 230, 98);
   margin-top: auto;
+  align-self: center;
 }
-/* oo classes */
-.work-flow{
-  border: 4px dashed orange;
-  margin: var(--spacing-unit-small);
-  padding: 25rem;
-  position: relative;
 
+img {
+  max-width: 128px;
+  max-height: 128px;
 }
-.About-Me {
-  border: 4px dashed orange;
+
+.aboutme{
+  color: aqua;
+}
+
+.Box{ display: flex;
+flex-direction: column;
+width: 100%;
+}
+
+.pic{
+  display: flex;
+}
+
+.work-flow{
+  border: 4px groove rgb(0, 255, 213);
   margin: var(--spacing-unit-small);
-  padding: 25rem;
+  padding: 5rem;
   position: relative;
+  background-image: url(images/InkedTurtleshellHBR.jpg);
+  background-repeat: repeat-x;
+  background-position: center;
+  background-size: contain;
+ 
+}
+.work-flow:hover{
+  box-shadow: 0px 0px 48px #d80b0b;
+}
+
+.About-Me:hover{
+ box-shadow: 0px 0px 48px #d80b0b;
+  
+}
+
+.About-Me {
+  border: 4px groove rgb(0, 255, 213);
+  margin: var(--spacing-unit-small);
+  padding: 5rem;
+  position: relative;
+ 
 }
 
 .code-block {
   background: linear-gradient(180deg, rgb(255, 0, 13), rgb(105, 6, 105));
   border-radius: var(--spacing-unit-small);
   padding: var(--spacing-unit-small);
+  color: #57d80c;
 }
 
 .figure-wrapper {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+
 }
-
-
+.figbox1{
+  
+}
 
 .ta-c {
   text-align: center;
 }
-img {
-  max-width: 128px;
-  max-height: 128px;
+.footerlink{
+  color: #57d80c;
 }
-@media screen and (min-width: 768px)
+.footerlink:hover{
+  background-color: rgb(133, 9, 133);
+  color: #57d80c;
+  box-shadow: 0px 0px 48px rgb(188, 238, 5)
+}
+
+
+@media screen and (max-width: 768px){
+  .header{
+    display: flex; 
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 1280px) {
+    h3{
+    top: -108%;
+  }
+}
