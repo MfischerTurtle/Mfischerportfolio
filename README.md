@@ -11,6 +11,8 @@ Made background images for hyperlink headers and background for MERN stack secti
 Added image of me in top left of page next to my name.
 Made so page can fit any media style
 
-## 
-image.png
+## Images of web page
+
+top of web page.PNG
+bottom of webpage.PNG
 
