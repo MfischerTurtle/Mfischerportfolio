@@ -25,5 +25,6 @@ Usage of ancor tags
 
 ## Mock Up
 
-![portfolio demo](assets\images\toppage.PNG)
-![portfolio demo](assets\images\bottomwebpage.PNG)
+![portfolio](assets\images\toppage.PNG)
+
+![portfolio](assets\images\bottomwebpage.PNG)
