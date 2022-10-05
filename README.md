@@ -27,7 +27,5 @@ Usage of colors
 
 ## Mock Up
 
-![portfolio](assets\images\toppage.PNG)
 
-![portfolio](assets\images\bottomwebpage.PNG)
 
