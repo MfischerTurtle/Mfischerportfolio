@@ -23,8 +23,11 @@ Usage of background images and how they are position
 
 Usage of ancor tags 
 
+Usage of colors
+
 ## Mock Up
 
 ![portfolio](assets\images\toppage.PNG)
 
 ![portfolio](assets\images\bottomwebpage.PNG)
+
