@@ -154,7 +154,7 @@ width: 100%;
   margin: var(--spacing-unit-small);
   padding: 5rem;
   position: relative;
-  background-image: url(images/InkedTurtleshellHBR.jpg);
+  background-image: url(./images/InkedTurtleshellHBR.jpg);
   background-repeat: repeat-x;
   background-position: center;
   background-size: contain;
